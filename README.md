@@ -1,2 +1,2 @@
 # ptk.biz.ua
-  ptk.biz.ua source code
+  http://ptk.biz.ua source code
