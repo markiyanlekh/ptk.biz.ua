@@ -1,0 +1,399 @@
+body
+{
+  background-image: url('../pictures/ct11.jpg');
+  background-size: 100% auto;
+  background-repeat: repeat-y;
+  height: 100%;
+}
+header
+{
+	width: 100%;
+	background-color: rgba(52,58,64,0.8);
+}
+footer
+{
+	background-color: rgba(52,58,64,0);
+
+}
+.headline {
+    cursor: pointer;
+}
+/* ------------------------Item card-------------------------- */
+
+.maincontainer
+{
+	height: 750px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.itemcard
+{
+	width: 75%;
+	height: 90%;
+	border-radius: 4px;
+	-webkit-transform-style: preserve-3d;
+	-webkit-transition: all 1.5s ease;
+	box-shadow: 0px 0px 12px rgba(0,0,0,0.7);
+}
+.front
+{
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+
+  -webkit-overflow: hidden;
+  -webkit-transform: rotateY(0deg);
+  background-color: rgba(255,255,255,0.8);
+
+}
+.back
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;	
+    backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-overflow: hidden;
+  background-color: white;
+	-webkit-transform: rotateY(180deg);
+}
+/* ------------------------Carousel-------------------------- */
+
+.carousel
+{
+  height: 500px;
+  width: 100%;
+  background-color: rgba(255,255,255,0.6):!important;
+}
+.carousel-inner
+{
+  height: 100%;
+}
+.carousel-item 
+{
+  height: 100%;
+  border: 0px;
+}
+
+.carousel-item > img 
+{
+  height: 100%;
+  min-width: 100%;
+  width: auto;
+  cursor: pointer;
+}
+/* ------------------------Front-------------------------- */
+
+.front > .col-7
+{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	
+}
+.front > .col-5
+{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.col-5 > .container-fluid
+{
+	background-color: white;
+	padding:20px 0px 20px 0px;
+}
+
+.item_panel
+{
+	display: flex;
+	justify-content: flex-end;
+	padding-top:0px!important;
+}
+.item_panel > button
+{
+	padding: 2px 0px 0px 0px!important; 
+	border-radius: 4px;
+ 	font-family: 'Bahnschrift';
+ 	font-size: 1.4rem;
+  	text-align: center;
+  	color:white;
+  	font-stretch: condensed;
+  	font-weight: 400;
+  	margin:0px 2px;
+}
+.btn-doc
+{
+	background-color: rgba(52,58,64,0.6)!important;
+	 
+}
+i
+{
+	font-size: 20px!important;
+}
+.btn-dark
+{
+	background-color: rgba(52,58,64,1)!important;
+	transition: all 1s;
+}
+.btn-dark:hover
+{
+	background-color: black!important;
+
+}
+.btn-doc:hover
+{
+	background-color: rgba(52,58,64,0.8)!important;
+}
+/* ------------------------Wrapper-------------------------- */
+
+.wrapper
+{
+  width: 95%;
+  padding: 15px 0px;
+}
+.wrapper> .row
+{
+	overflow: hidden;
+    flex-wrap: nowrap;
+     overflow-x:scroll;
+     height: 120px;
+     white-space: nowrap;
+}
+.wrapper> .row > 
+{
+  height: 100%;
+  width: 100%;
+}
+.item_pic
+{
+  max-height: 120px;
+  max-width: 200px;
+  width: 100%;
+  padding: 0px 3px 2px 2px;
+  cursor: pointer;
+}
+/* ------------------------Back-------------------------- */
+
+.back > .col-7
+{
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	padding:0px!important;
+	background-size:contain;
+	background-position: center center;
+	background-blend-mode:color;
+	display: flex;
+	justify-content: flex-end;
+	align-items:  flex-end;
+	
+}
+#download, #return,#submit
+{
+	height: 2.2rem!important;
+	margin: 0px 10px 10px 0px!important;
+	padding: 2px 0px 0px 2px!important; 
+	border-radius: 4px;
+ 	font-family: 'Bahnschrift';
+ 	font-size: 1.4rem;
+  	text-align: center;
+  	color:white;
+  	font-stretch: condensed;
+  	font-weight: 400;
+  	text-transform: uppercase;
+}
+
+.back >.col-5
+{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255,255,255,0.8)!important;
+
+}
+/* ------------------------Form-------------------------- */
+form[id='order_form']
+{
+	padding: 10% 0% 8% 3%;
+
+}
+.input-group > .form-control, .custom-file-label, .custom-file-input	
+{
+	border-radius: 2px!important;
+	border:1.5px solid rgba(52,58,64,0.7)!important;
+	font-family: "Bahnschrift"!important;
+}
+.custom-file-label::after {
+    content: "Plain";
+    border-radius: 2px!important;
+   	border-left:1.5px solid rgba(52,58,64,0.7)!important;
+   		border-bottom:1.5px solid rgba(52,58,64,0.7)!important;
+}
+.custom-file-input:lang(ru)~.custom-file-label::after {
+    content: "Чертеж"!important;
+}
+.custom-file-input:lang(uk)~.custom-file-label::after {
+    content: "Ескіз"!important;
+}
+.input-group-text
+{
+	background-color: rgba(52,58,64,0.9)!important;
+	border-color: rgba(52,58,64,0.8)!important;
+	color: white!important;
+	font-size: 20px!important;
+	padding: 8px 15px 8px 15px!important;
+}
+label
+{
+	font-family: "Bahnschrift"!important;
+	text-transform: uppercase;
+	font-stretch: condensed!important;	
+	color: black;
+	font-size: 1.1rem!important;
+	font-weight: 400!important;
+}
+.form-title
+{
+	font-family: "Bahnschrift"!important;
+	text-transform: uppercase;
+	font-stretch: condensed!important;	
+	color: black;
+	font-size: 1.6rem!important;
+	font-weight: 400!important;
+	text-align: center;
+}
+/* ------------------------Text-------------------------- */
+
+@font-face {
+    font-family: brand1;
+    src: url(font/bebas.ttf);
+}
+h4
+{
+	color: black;
+  	font-size: 2.8rem!important;
+    font-family:"brand1"!important; 
+    text-align: center;
+}
+h5
+{
+	font-family: "Bahnschrift"!important;
+	text-transform: uppercase;
+	font-stretch: condensed;	
+	color: white!important;
+	background-color: rgba(52,58,64,0.8);
+	padding: 8px 3px 4px 3px;
+	font-size: 1.4rem!important;
+	font-weight: 400!important;
+	padding-left: 20px;
+}
+.item_text
+{
+	font-family: "Bahnschrift"!important;
+	font-stretch: condensed;
+	font-size: 1.3rem;
+	font-weight: 100;
+	padding: 4px;
+	color: black;
+	margin:0px;
+}
+
+#myImg {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1;
+    padding-top: 5%;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto;
+    background-color: rgb(52,58,64); /* Fallback color */
+    background-color: rgba(52,58,64,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    height: : 80%;
+    max-width: 800px;
+    border-color: transparent!important;
+    background-color: transparent!important;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+    font-size: 120%!important;
+    text-transform: uppercase;
+    font-family: "Bahnschrift";
+    font-stretch: condensed;
+
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes zoom {
+    from {transform: scale(0.1)} 
+    to {transform: scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+#img01
+{
+	border-color: transparent!important;
+}

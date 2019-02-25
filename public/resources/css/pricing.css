@@ -1,0 +1,59 @@
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+.card:hover{
+	
+	
+}
+.card
+{
+	height: 20srem;
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+	transition: box-shadow 0.5s, width 1s, color 1s, height 1s, max-width 1s, background-color 1s;
+}
+.wrapper
+{
+	width:100%;
+	display: none;
+}
+.wrapper> .row
+{
+
+	display: flex;
+    overflow: hidden;
+    flex-wrap: nowrap;
+     overflow-x:scroll;
+     height: 30rem;
+     white-space: all;
+}
+.wrapper> .row > .col-xs-4{
+	height: 24rem;
+	  min-width: 220px;
+	width: 20rem;
+	flex: 0 0 auto;
+	 }
+.landing_img
+{
+	max-height: 600px;
+	min-height: 400px;
+    align-self: flex-end;
+
+}
+.btn
+{
+	max-height: 3rem;
+
+}

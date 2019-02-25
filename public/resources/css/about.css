@@ -1,0 +1,348 @@
+body
+{
+  background-image: url('../pictures/ct11.jpg');
+  background-size: 100% auto;
+  background-repeat: repeat-y;
+  height: 100%;
+}
+
+header
+{
+  width: 100%;
+  background-color: rgba(52,58,64,0.8);
+}
+footer
+{
+  background-color: rgba(52,58,64,0);
+
+}
+.container-fluid
+{
+  padding: 0px;
+  width: 100%;
+}
+.topcontainer
+{
+  width: 100%;
+  display: flex;
+  background-color: rgba(52,58,64,0.8);
+  justify-content: center;
+  align-items: center;
+}
+.maincontainer
+{
+  box-shadow: 2px 0px 8px rgba(52,58,64,0.5);
+  height: 100%;
+  display: flex;
+  flex-direction:  column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color:rgba(255,255,255,0.2)!important;
+}
+.textcontainer
+{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3%;
+}
+.infocontainer
+{
+  width: 100%;
+  height: auto;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.infocontainer > .col-3
+{
+    padding: 2% 0% 0% 6%!important;
+}
+.bg-map
+{
+  width: 100%;
+  height: 350px;    
+}
+/* ------------------------Form-------------------------- */
+/* ------------------------Text-------------------------- */
+ 
+.sub
+{
+  color:black;
+  font-size: 3rem;
+  font-family:"brand1"; 
+  text-shadow: 2px 2px 5px white!important;
+
+}
+h4
+{
+  font-family: "brand1";
+  font-stretch: condensed;
+  color: white!important;
+  font-size: 3rem!important;
+  font-weight: 100;
+  text-align: center;
+}
+.t-foot
+{
+  font-family: "Bahnschrift";
+  border: 2px solid transparent;
+  font-stretch: condensed;
+  color: white;
+  font-size: 110%;
+  font-weight: 100;
+  text-shadow: 0px 0px .5px black;
+}
+#main-row
+{
+  padding-left: 8%;
+}
+.about-text-container
+{
+  background-color:  rgba(255,255,255,0.6);
+  box-shadow: 0px 0px 8px rgba(52,58,64,0.5);
+  text-shadow: 0px 0px 1px rgba(52,58,64,0.7);
+  font-stretch: condensed;
+  border-radius: 2px;
+  font-family: "Bahnschrift";
+  font-weight: 100;
+  color:rgba(52,58,64,1);
+  font-size: 1.35rem;
+  padding: 1.5% 2% 1.5% 2.5%;
+  line-height: 2rem;
+  word-spacing: 5px;
+  margin-bottom: 2%!important;
+  border-left: 30px solid rgba(52,58,64,1);  
+  display: flex;
+  text-align: justify;
+  align-items: center;
+}
+.about-text
+{
+  background-color:  rgba(255,255,255,0.6);
+  box-shadow: 0px 0px 8px rgba(52,58,64,0.5);
+  text-shadow: 0px 0px 1px rgba(52,58,64,0.7);
+  font-stretch: condensed;
+  border-radius: 2px;
+  font-family: "Bahnschrift";
+  font-weight: 100;
+  color:rgba(52,58,64,1);
+  font-size: 1.35rem;
+  padding: 1.5% 2% 1.5% 2.5%;
+  line-height: 2.2rem;
+  word-spacing: 5px;
+  margin-bottom: 2%!important;
+  border-left: 30px solid rgba(52,58,64,1);  
+  display: flex;
+  align-items: center;
+}
+.about-brand
+{
+  padding: .5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 200px!important;
+  margin-bottom: 1.5%!important;
+}
+.partner
+{
+  width: 100%;
+  filter:contrast(110%);
+}
+.ptk-logo-icon
+{
+  width: 100%;
+  padding: .5% 2% .5% 0%;
+}
+.ptk-logo-link
+{
+  width: 100%;
+  padding: 0%;
+  box-shadow: 0px 0px 8px rgba(52,58,64,0.7);
+  border-radius: 2px;
+  filter: brightness(110%);
+}
+.about-container
+{
+  font-stretch: condensed;
+  font-family: "Bahnschrift";
+  font-weight: 100;
+  color:rgba(52,58,64,1);
+  font-size: 1.35rem;
+  display: flex;
+  width: 100%;
+  margin: 2% 0% 0% 0%;
+  align-items: center;
+  justify-content: space-around;
+}
+.teamcard
+{
+  max-width: 18rem;
+    cursor: pointer;
+    width: 90%;
+    padding: 0% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 3px rgba(52,58,64,0.4);
+    margin: 2%;
+    /*
+    background-color: rgba(52,58,64,0.8);*/
+   
+}
+.teamcard-img
+{  
+  border-radius: 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 16rem;
+  margin: 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-position: center center;
+}
+.teamcard-body 
+{
+  font-family: "Bahnschrift";
+  font-stretch: condensed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  
+}
+.teamcard-data-list
+{
+  list-style: none;
+  font-size: 90%;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap; 
+  transition: .5s all;
+  width: 100%;
+  padding:2% 0% 2% 22%;
+  margin-bottom: 0%;
+}
+.teamcard-data-list >li
+{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  text-shadow: 0px 0px 3px rgba(255,255,255,0.4);
+}
+.teamcard-data-list > li > p
+{
+  padding: 3% 2% 0% 2%;
+  font-stretch: condensed;
+  font-family: "Bahnschrift";
+  font-weight: 200;
+  line-height: 1.6rem;
+  font-size:85%;
+  display: none;
+  letter-spacing: .4px;
+}
+.teamcard-data-list > li > i
+{
+  font-size: 110%;
+  font-weight: 400;
+  padding: 0% 3%;
+  line-height: 1.6rem;
+
+}
+.teamcard-role
+{
+  width: 100%;
+  padding: 2% 0% 1% 0%;
+  margin: 0%!important;
+  color: white;
+  font-size: 94%;
+  font-weight: 400;
+  background-color: rgba(52,58,64,0.8);
+
+  text-shadow: 0px 0px 2px rgba(52,58,64,0.4);
+  line-height: 2.2rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .4px;
+}
+.teamcard-text-heading
+{
+  width: 100%;
+  text-shadow: 0px 0px 2px rgba(52,58,64,0.6);
+  font-stretch: condensed;
+  font-family: "Bahnschrift";
+  font-weight: 100;
+  font-size:100%;
+  text-align: center;
+  text-transform:uppercase;
+  padding: 3% 0%;
+  letter-spacing: .7px;
+  background-color: rgba(255,255,255,0.6);
+
+  line-height: 2rem;
+  margin-bottom: 0%!important;
+  word-spacing: .3rem;
+}
+
+.over-profile
+{
+  position: absolute;
+  right: 0;
+  overflow: hidden;
+  bottom: 70%;
+  left: 3%;
+  width: 16%;
+  height:16%;
+  border-radius: 8px;
+  background-color: rgba(52,58,64,0.8);
+  transition: .5s all;
+  box-shadow: 0px 0px 4px 2px rgba(52,58,64,0.4)
+}
+.teamcard:hover .over-profile
+{
+  bottom: 21%;
+  border-radius: 0px;
+  left: 0%;
+  box-shadow: none;
+  height: 70%;
+  cursor: pointer;
+  transition: all 0.7s;
+  background-color:rgba(52,58,64,1); 
+  width: 100%;
+  right: 0;
+}
+.teamcard:hover .teamcard-data-list
+{
+  font-size: 100%;
+  padding: 2% 24% 4% 20%;
+}
+.teamcard:hover .teamcard-data-list > li > p
+{
+  display: flex;
+}
+.v21
+{
+  margin-bottom:-15%!important;
+  margin-top:4%!important;
+}
+.team-deck
+{
+  
+}

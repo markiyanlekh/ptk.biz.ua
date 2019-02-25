@@ -1,0 +1,115 @@
+.navbrand
+{
+  height: 4rem;
+}
+.jumbotron {
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-bottom: 0rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+.fixed_size
+{
+  height: 30rem;
+  width: 30rem;
+}
+
+.overlay1 {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 3000;
+  top: 0;
+  left: 0;
+
+  background-color: rgba(52,58,64,0.6);
+  background-blend-mode: normal;
+}
+
+.overlay-content {
+  position: relative;
+  top: 46%;
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
+}
+
+.overlay1 .closebtn {
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
+}
+
+.overlay1 .closebtn:hover {
+  color: #ccc;
+}
+
+.overlay1 input[type=text] {
+  padding: 0.4rem;
+  font-size: 1.3rem;
+  border: none;
+  float: left;
+  width: 95%;
+  border-radius: 4px;
+  color:white;
+  font-weight: 300!important;
+
+  box-shadow: 0px 0px 2px 2px rgba(255,255,255,0.9);
+  background-color: rgba(255,255,255,0.5)!important;
+}
+
+.overlay1 input[type=text]:focus {
+  outline: none;
+}
+
+.overlay1 button {
+  float: left;
+  width: 5%;
+  padding: 0.5rem;
+
+  font-size: 1.3rem;
+  cursor: pointer;
+  border:none;
+  border-radius: 4px;
+  color: white!important;
+    font-family: "Bahnschrift"!important;
+    font-weight: 600;
+    font-stretch: condensed;
+    transition: all 1s;
+    transition-timing-function: ease-out;
+    background-color: transparent;
+}
+.inv
+{
+  font-size: 2rem!important;
+  
+}

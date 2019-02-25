@@ -1,0 +1,148 @@
+body
+{
+  background-image: url('../pictures/ct11.jpg');
+  background-size: 100% auto;
+  background-repeat: repeat-y;
+  height: 100%;
+}
+header
+{
+  width: 100%;
+  background-color: rgba(52,58,64,0.8);
+}
+footer
+{
+  background-color: rgba(52,58,64,0);
+
+}
+.container-fluid
+{
+  padding: 0px;
+  width: 100%;
+}
+.maincontainer
+{
+  box-shadow: 2px 0px 8px rgba(255,255,255,0.6);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color:rgba(255,255,255,0.3)!important;
+}
+
+.infocontainer
+{
+  width: 100%;
+  height: auto;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.infocontainer > .col-3
+{
+    padding: 2% 0% 0% 6%!important;
+}
+.bg-map
+{
+  width: 100%;
+  height: 350px;    
+}
+/* ------------------------Form-------------------------- */
+#contact-main-form
+{
+  margin-top: 0%!important;
+  padding-bottom: 2%!important
+}
+#submit
+{
+  cursor: pointer;
+  height: 2.4rem!important;
+  padding: 4px 0px 2px 2px!important; 
+  border-radius: 4px;
+  font-family: 'Bahnschrift';
+  font-size: 1.3rem;
+    text-align: center;
+    color:white;
+    font-stretch: condensed;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+html:lang(ru)>button{
+    content: "ОТПРАВИТЬ"!important;
+}
+html:lang(uk)>button
+{
+  content: "НАДІСЛАТИ"!important;
+}
+form[id='contact-main-form']
+{
+  padding: 1% 2%;
+  margin:2% 0%;
+}
+
+input, textarea
+{
+  border-radius: 2px!important;
+  border:1px solid rgba(52,58,64,0.5)!important;
+  font-family: "Bahnschrift"!important;
+  font-size:1.3rem!important;
+  font-weight: 100;
+  box-shadow: 0px 0px 6px rgba(0,0,0,0.4);
+}
+input[name=email], input[name=name]
+{
+  border-top:1px solid rgba(52,58,64,0.5)!important;
+  font-size: 96%!important;
+  font-family: "Bahnschrift";
+  text-transform: uppercase;
+}
+.form-group
+{
+  display: flex!important;
+  justify-content: space-around;
+  margin-bottom: 1%!important;
+}
+/* ------------------------Text-------------------------- */
+ 
+.sub
+{
+  color:black;
+  font-size: 3rem;
+  font-family:"brand1"; 
+  text-shadow: 2px 2px 5px white!important;
+
+}
+.t-foot-title
+{
+  padding: 2% 0% 1% 0%!important;
+  width: 50%;
+  font-family: "Bahnschrift";
+  background-color: rgba(255,255,255,0.6);
+  font-stretch: condensed;
+  color: black!important;
+  font-size: 120%!important;
+  font-weight: 400;
+  text-align: center;
+  border-radius: 4px!important;
+}
+.t-foot
+{
+  font-family: "Bahnschrift";
+  border: 2px solid transparent;
+  font-stretch: condensed;
+  color: white;
+  font-size: 110%;
+  font-weight: 100;
+  text-shadow: 0px 0px .5px black;
+}
+#main-row
+{
+  padding-left: 8%!important;
+}
+.mfoot
+{
+
+}
